@@ -117,29 +117,29 @@ h6 {
   color: var(--color-heading);
 }
 
-h1 {
+h1, .h1 {
   font-weight: var(--fontWeight-black);
   font-size: var(--fontSize-6);
   color: var(--color-heading-black);
 }
 
-h2 {
+h2, .h2 {
   font-size: var(--fontSize-5);
 }
 
-h3 {
+h3, .h3 {
   font-size: var(--fontSize-4);
 }
 
-h4 {
+h4, .h4 {
   font-size: var(--fontSize-3);
 }
 
-h5 {
+h5, .h5 {
   font-size: var(--fontSize-2);
 }
 
-h6 {
+h6, .h6 {
   font-size: var(--fontSize-1);
 }
 
@@ -277,13 +277,6 @@ a:focus {
 
 .post-list-item header {
   margin-bottom: var(--spacing-4);
-}
-
-.header-link-home {
-  font-weight: var(--fontWeight-bold);
-  font-family: var(--font-heading);
-  text-decoration: none;
-  font-size: var(--fontSize-2);
 }
 
 .bio {

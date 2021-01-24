@@ -1,14 +1,14 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Starter Blog`,
+    title: `Ben Durham`,
     author: {
-      name: `Kyle Mathews`,
-      summary: `who lives and works in San Francisco building useful things.`,
+      name: `Ben Durham`,
+      summary: `Mathematical Economics and Mathematics student at Gettysburg College`,
     },
-    description: `A starter blog demonstrating what Gatsby can do.`,
+    description: `A blog chronicling my constant learning process in my many interest areas such as data science and web development`,
     siteUrl: `https://gatsby-starter-blog-demo.netlify.app/`,
     social: {
-      twitter: `kylemathews`,
+      twitter: `bendurham441`,
     },
   },
   plugins: [
