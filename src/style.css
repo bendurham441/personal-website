@@ -55,11 +55,12 @@
   --fontSize-6: 2.488rem;
   --fontSize-7: 2.986rem;
   --color-primary: #005b99;
-  --color-text: #2e353f;
+  --color-text: #d3d3d3;
   --color-text-light: #4f5969;
-  --color-heading: #1a202c;
-  --color-heading-black: black;
+  --color-heading: #9c9c9c;
+  --color-heading-black: rgb(156, 114, 199);
   --color-accent: #d1dce5;
+  --color-background: #131313
 }
 
 /* HTML elements */
@@ -68,6 +69,7 @@
 :after,
 :before {
   box-sizing: border-box;
+  background-color: var(--color-background);
 }
 
 html {
@@ -278,6 +280,7 @@ a:focus {
 .post-list-item header {
   margin-bottom: var(--spacing-4);
 }
+
 
 .bio {
   display: flex;

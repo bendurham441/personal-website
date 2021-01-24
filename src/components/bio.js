@@ -9,12 +9,14 @@ import React from "react"
 import { useStaticQuery, graphql } from "gatsby"
 import Image from "gatsby-image"
 
+import bioStyles from "./bio.module.css"
+
 const Bio = () => {
   const data = useStaticQuery(graphql`
     query BioQuery {
       avatar: file(absolutePath: { regex: "/profile-pic.jpg/" }) {
         childImageSharp {
-          fixed(width: 50, height: 50, quality: 95) {
+          fixed(width: 100, height: 100, quality: 95) {
             ...GatsbyImageSharpFixed
           }
         }
@@ -35,31 +37,20 @@ const Bio = () => {
 
   // Set these values by editing "siteMetadata" in gatsby-config.js
   const author = data.site.siteMetadata?.author
-  const social = data.site.siteMetadata?.social
 
   const avatar = data?.avatar?.childImageSharp?.fixed
 
   return (
-    <div className="bio">
+    <div className={bioStyles.bio}>
       {avatar && (
         <Image
           fixed={avatar}
           alt={author?.name || ``}
-          className="bio-avatar"
-          imgStyle={{
-            borderRadius: `50%`,
-          }}
+          className={bioStyles.bioAvatar}
         />
       )}
-      {author?.name && (
-        <p>
-          Written by <strong>{author.name}</strong> {author?.summary || null}
-          {` `}
-          <a href={`https://twitter.com/${social?.twitter || ``}`}>
-            You should follow them on Twitter
-          </a>
-        </p>
-      )}
+      <h1 className={bioStyles.bioMainHeading}>{author.name}</h1>
+      <h2 className={`h5 ${bioStyles.bioDescription}`}>{author?.summary || null}</h2>
     </div>
   )
 }

@@ -28,9 +28,19 @@ const BlogIndex = ({ data, location }) => {
       <SEO title="All posts" />
       <Bio />
       <section>
-        <h2 className="h4">Work Experience</h2>
-        <h3 className="h5">Frontend Developer - ProMazo</h3>
-        <h3 className="h5">Web Intern - Gettysburg College</h3>
+        <p>
+          I'm an enthusiastic and confident student with technical interests and
+          skills. Currently, I'm working as a Frontend develop for ProMazo, but
+          I aspire to a career in data science or a related field.
+        </p>
+        <p>
+          On my technical blog, I chronicle my learning process in fields
+          ranging from web development to machine learning.
+        </p>
+        <p>
+          If you have any reach out, feel free to contact me via Twitter direct
+          messages.
+        </p>
       </section>
     </Layout>
   )
