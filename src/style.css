@@ -54,13 +54,13 @@
   --fontSize-5: 2.074rem;
   --fontSize-6: 2.488rem;
   --fontSize-7: 2.986rem;
-  --color-primary: #005b99;
-  --color-text: #d3d3d3;
+  --color-primary: #E0CA3C;
+  --color-text: #FFF2F1;
   --color-text-light: #4f5969;
-  --color-heading: #9c9c9c;
-  --color-heading-black: rgb(156, 114, 199);
+  --color-heading: #3581B8;
+  --color-heading-black: #E0CA3C;
   --color-accent: #d1dce5;
-  --color-background: #131313
+  --color-background: #1D201F
 }
 
 /* HTML elements */

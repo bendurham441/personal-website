@@ -30,7 +30,7 @@ const BlogIndex = ({ data, location }) => {
       <section>
         <p>
           I'm an enthusiastic and confident student with technical interests and
-          skills. Currently, I'm working as a Frontend develop for ProMazo, but
+          skills. Currently, I'm working as a Frontend Developer for ProMazo, but
           I aspire to a career in data science or a related field.
         </p>
         <p>
@@ -38,7 +38,7 @@ const BlogIndex = ({ data, location }) => {
           ranging from web development to machine learning.
         </p>
         <p>
-          If you have any reach out, feel free to contact me via Twitter direct
+          If you have any desire to reach out, feel free to contact me via Twitter direct
           messages.
         </p>
       </section>

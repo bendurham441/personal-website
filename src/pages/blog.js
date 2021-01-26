@@ -21,7 +21,6 @@ const PostList = ({ data, location }) => {
   return (
     <Layout location={location} title={siteTitle}>
       <SEO title="Technical Blog" />
-      <Bio />
       <ol style={{ listStyle: `none` }}>
         {posts.map(post => {
           const title = post.frontmatter.title || post.fields.slug

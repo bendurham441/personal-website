@@ -3,11 +3,11 @@ import { Link } from "gatsby"
 
 import navbarStyles from "./navbar.module.css"
 
-const Navbar = ({ title }) => {
+const Navbar = ({ title, isRootPath }) => {
   return (
     <nav className={navbarStyles.navbar}>
       <Link className={navbarStyles.headerLinkHome} to="/">
-        {title}
+        {isRootPath ? 'Home' : title}
       </Link>
       <div>
         <Link className={navbarStyles.navitem} to="/blog">
