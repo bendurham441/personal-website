@@ -86,10 +86,6 @@ body {
 	height: 100vh;
 }
 
-footer {
-	padding: var(--spacing-6) var(--spacing-0);
-}
-
 hr {
 	background: var(--color-accent);
 	height: 1px;
