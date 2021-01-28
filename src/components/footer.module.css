@@ -1,0 +1,18 @@
+@import "../style.css";
+
+.socials {
+	display: flex;
+	justify-content: center;
+}
+
+.icon {
+	padding: 1rem;
+}
+
+.footer-text {
+	text-align: center;
+}
+
+footer {
+	margin: auto;
+}
